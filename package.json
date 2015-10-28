@@ -1,0 +1,21 @@
+{
+  "name": "es6-hapijs-seed",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodoabad/es6-hapijs-seed.git"
+  },
+  "author": "Rodo Abad <rodoabad@gmail.com> (https://github.com/rodoabad)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rodoabad/es6-hapijs-seed/issues"
+  },
+  "homepage": "https://github.com/rodoabad/es6-hapijs-seed#readme",
+  "devDependencies": {
+    "hapi": "^11.0.2"
+  }
+}
