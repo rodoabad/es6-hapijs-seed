@@ -16,6 +16,14 @@
   },
   "homepage": "https://github.com/rodoabad/es6-hapijs-seed#readme",
   "devDependencies": {
-    "hapi": "^11.0.2"
+    "eslint": "^1.7.3",
+    "eslint-friendly-formatter": "^1.2.2",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-load-plugins": "^1.0.0",
+    "hapi": "^11.0.2",
+    "inert": "^3.2.0",
+    "joi": "^6.9.1",
+    "lab": "^7.0.0"
   }
 }
