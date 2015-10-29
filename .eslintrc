@@ -13,7 +13,7 @@
       {
         "arraysInArrays": true,
         "objectsInArrays": true,
-        "singleValue": true
+        "singleValue": false
       }
     ],
     "block-scoped-var": 2,
