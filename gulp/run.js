@@ -3,7 +3,7 @@ import nodemon from 'gulp-nodemon';
 
 gulp.task('run', ['build'], () => {
 
-  return nodemon({
+  nodemon({
     tasks: [
       'compile'
     ],

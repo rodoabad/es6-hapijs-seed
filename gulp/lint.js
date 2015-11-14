@@ -4,11 +4,11 @@ import reporter from 'eslint-friendly-formatter';
 
 gulp.task('lint', () => {
 
-  return gulp.src([
-    'gulp/**/*.js',
-    'src/**/*.js',
-    'gulpfile.babel.js'
-  ])
+  gulp.src([
+      'gulp/**/*.js',
+      'src/**/*.js',
+      'gulpfile.babel.js'
+    ])
     .pipe(eslint('.eslintrc'))
     .pipe(eslint.format(reporter))
     .pipe(eslint.failAfterError());

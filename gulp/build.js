@@ -6,13 +6,13 @@ import sourcemaps from 'gulp-sourcemaps';
 
 gulp.task('clean', ['lint'], () => {
 
-  return del('dist/*');
+  del('dist/*');
 
 });
 
 gulp.task('compile', ['clean'], () => {
 
-  return gulp.src('src/server.js')
+  gulp.src('src/server.js')
     .pipe(sourcemaps.init())
     .pipe(babel())
     .pipe(uglify())
